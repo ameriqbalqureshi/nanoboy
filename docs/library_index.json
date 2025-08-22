@@ -1,1 +1,27 @@
+{
+  "packages": [
+    {
+      "name": "nanoboy",
+      "maintainer": "Your Name",
+      "websiteURL": "https://github.com/yourusername/NanoBoy",
+      "email": "your.email@example.com",
+      "platforms": [],
+      "tools": [],
+      "libraries": [
+        {
+          "name": "NanoBoy",
+          "version": "1.0.0",
+          "author": "Your Name",
+          "maintainer": "Your Name <your.email@example.com>",
+          "sentence": "Lightweight game framework for Arduino Nano with OLED display and buttons.",
+          "paragraph": "NanoBoy is an educational game framework for Arduino Nano (SSD1306 OLED + buttons + buzzer). Provides sprites, tilemaps, input, and collision detection for simple games like Pac-Man and Snake.",
+          "category": "Display",
+          "url": "https://github.com/yourusername/NanoBoy/archive/refs/tags/v1.0.0.zip",
+          "architectures": ["*"],
+          "types": ["Arduino"]
+        }
+      ]
+    }
+  ]
+}
 
