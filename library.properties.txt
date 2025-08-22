@@ -1,0 +1,10 @@
+name=NanoBoy
+version=1.0.0
+author=Your Name
+maintainer=Amer Iqbal <ameriqbalqureshi@yahoo.com>
+sentence=Retro game framework for Arduino Nano + SSD1306 with input, sprites, animation, tilemaps, SFX.
+paragraph=Provides simple graphics wrappers, debounced input with edge detection, sprites & animation, tilemap helpers, FPS timing, basic SFX, and EEPROM utilities for student game projects.
+category=Display
+url=https://github.com/ameriqbalqureshi/nanoboy
+architectures=avr
+includes=NanoBoy.h
