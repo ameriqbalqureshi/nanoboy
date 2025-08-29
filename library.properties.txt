@@ -1,10 +1,9 @@
 name=NanoBoy
 version=1.0.0
-author=Your Name
-maintainer=Amer Iqbal <ameriqbalqureshi@yahoo.com>
-sentence=Retro game framework for Arduino Nano + SSD1306 with input, sprites, animation, tilemaps, SFX.
-paragraph=Provides simple graphics wrappers, debounced input with edge detection, sprites & animation, tilemap helpers, FPS timing, basic SFX, and EEPROM utilities for student game projects.
+author=Mikrotronics Pakistan
+maintainer=Mikrotronics Pakistan <info@mikro.pk>
+sentence=A lightweight Arduino game development library for the NanoBoy console.
+paragraph=Provides graphics, sound, buttons, collision detection, and helper functions to make small games for the NanoBoy console.
 category=Display
-url=https://github.com/ameriqbalqureshi/nanoboy
-architectures=avr
-includes=NanoBoy.h
+url=https://mikro.pk
+architectures=*
