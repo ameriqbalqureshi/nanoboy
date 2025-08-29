@@ -37,6 +37,10 @@ This library includes fully working example games in the **examples/** folder:
 - 🛸 Space Invaders  
 - 🔲 Breakout  
 
+## Proteus Simulation
+This download contains Gameboy.pdsprj that is Proteus 8.13  
+
+
 Each example demonstrates different features of the library (graphics, input, sound, collision).
 
 ---
