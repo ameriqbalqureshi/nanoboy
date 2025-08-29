@@ -1,9 +1,0 @@
-name=NanoBoy
-version=1.0.0
-author=Mikrotronics Pakistan
-maintainer=Mikrotronics Pakistan <info@mikro.pk>
-sentence=A lightweight Arduino game development library for the NanoBoy console.
-paragraph=Provides graphics, sound, buttons, collision detection, and helper functions to make small games for the NanoBoy console.
-category=Display
-url=https://mikro.pk
-architectures=*
