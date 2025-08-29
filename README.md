@@ -19,10 +19,11 @@ It simplifies making retro-style games on Arduino by providing:
 
 ## 🚀 Installation
 1. Download this repository as a ZIP:  
-   Click **Code → Download ZIP**.  
-2. Open Arduino IDE → `Sketch → Include Library → Add .ZIP Library`  
-3. Select the downloaded ZIP file.  
-4. The library is now installed. You can open examples from:  
+   Click **Code → Download ZIP**.
+   Extract the zip file, it contains the Library (NanoBoy.zip) and other documents. 
+3. Open Arduino IDE → `Sketch → Include Library → Add .ZIP Library`  
+4. Select the NanoBoy.zip from the extracted file.  
+5. The library is now installed. You can open examples from:  
    `File → Examples → NanoBoy`
 
 ---
