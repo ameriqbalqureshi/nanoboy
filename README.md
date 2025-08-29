@@ -1,24 +1,46 @@
-# NanoBoy – Arduino Nano Game Development Library 🎮
+# NanoBoy Arduino Library
 
-NanoBoy is a lightweight game development framework for the **Arduino Nano** (ATmega328P) with an **SSD1306 OLED display** and push buttons.  
-It is inspired by the [Arduboy](https://arduboy.com/), but designed as a **DIY educational kit** using DIP components that are easy to solder.
+Developed by **Mikrotronics Pakistan**  
+🌐 Website: [https://mikro.pk](https://mikro.pk)
 
-With NanoBoy you can:
-- Draw graphics (sprites, tiles, text).
-- Handle input from buttons.
-- Play simple sounds with a buzzer.
-- Build tilemap-based games (Pac-Man, Snake, Pong, Breakout).
-- Detect collisions between sprites or between sprites and the map.
+---
+
+## 📖 About
+**NanoBoy** is a lightweight Arduino game development library designed for the **NanoBoy console**.  
+It simplifies making retro-style games on Arduino by providing:
+
+- ✅ Graphics (pixels, lines, rectangles, circles, text)  
+- ✅ Button input handling (Up, Down, Left, Right, A, B)  
+- ✅ Sound effects via buzzer  
+- ✅ Collision detection  
+- ✅ Sprite and tilemap support  
 
 ---
 
 ## 🚀 Installation
+1. Download this repository as a ZIP:  
+   Click **Code → Download ZIP**.  
+2. Open Arduino IDE → `Sketch → Include Library → Add .ZIP Library`  
+3. Select the downloaded ZIP file.  
+4. The library is now installed. You can open examples from:  
+   `File → Examples → NanoBoy`
 
-### Option 1: Manual Install
-1. Download this repository as ZIP.  
-2. In Arduino IDE, go to **Sketch → Include Library → Add .ZIP Library...**  
-3. Select the downloaded `NanoBoy.zip`.  
+---
 
-### Option 2: Arduino Library Manager
-Once published, you can add the following JSON URL to Arduino IDE:  
-**File → Preferences → Additional Board Manager URLs →**  
+## 🎮 Example Games
+This library includes fully working example games in the **examples/** folder:  
+
+- 🏓 Pong (with AI paddle)  
+- 🐍 Snake  
+- ❌⭕ Tic Tac Toe  
+- 🛸 Space Invaders  
+- 🔲 Breakout  
+
+Each example demonstrates different features of the library (graphics, input, sound, collision).
+
+---
+
+## 📜 License
+This game development library and included examples are **free to distribute**  
+as long as the following notice is preserved:
+
