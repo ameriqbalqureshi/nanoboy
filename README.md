@@ -1,51 +1,60 @@
-# NanoBoy Arduino Library
+# NanoBoy Library
 
-Developed by **Mikrotronics Pakistan**  
-🌐 Website: [https://mikro.pk](https://mikro.pk)
+NanoBoy is a tiny handheld console created by **Mikrotronics Pakistan** to make learning embedded systems programming playful and game-oriented.  
+It is built around an Arduino Nano with:
 
----
+- a 128×64 pixel OLED display (SSD1306 or SH1106),
+- six input buttons (Up, Down, Left, Right, A, B),
+- a user LED,
+- and a piezo buzzer.
 
-## 📖 About
-**NanoBoy** is a lightweight Arduino game development library designed for the **NanoBoy console**.  
-It simplifies making retro-style games on Arduino by providing:
-
-- ✅ Graphics (pixels, lines, rectangles, circles, text)  
-- ✅ Button input handling (Up, Down, Left, Right, A, B)  
-- ✅ Sound effects via buzzer  
-- ✅ Collision detection  
-- ✅ Sprite and tilemap support  
+With the NanoBoy Library you can draw graphics, display text, read buttons, play sounds and build your own games with minimal wiring.
 
 ---
 
-## 🚀 Installation
-1. Download this repository as a ZIP:  
-   Click **Code → Download ZIP**.
-   Extract the zip file, it contains the Library (NanoBoy.zip) and other documents. 
-3. Open Arduino IDE → `Sketch → Include Library → Add .ZIP Library`  
-4. Select the NanoBoy.zip from the extracted file.  
-5. The library is now installed. You can open examples from:  
-   `File → Examples → NanoBoy`
+## Features
+
+- Simple API for text, shapes, sprites and tile maps
+- Input handling for six buttons
+- LED and buzzer control
+- Collision detection between sprites
+- Built on Adafruit\_GFX and SSD1306/SH1106 drivers
 
 ---
 
-## 🎮 Example Games
-This library includes fully working example games in the **examples/** folder:  
+## Hardware Overview
 
-- 🏓 Pong (with AI paddle)  
-- 🐍 Snake  
-- ❌⭕ Tic Tac Toe  
-- 🛸 Space Invaders  
-- 🔲 Breakout  
+| Function | Arduino Nano Pin |
+|----------|------------------|
+| Button UP | D2 |
+| Button DOWN | D3 |
+| Button LEFT | D4 |
+| Button RIGHT | D5 |
+| Button A | D6 |
+| Button B | D7 |
+| LED | D8 |
+| Buzzer | D9 |
+| OLED SDA | A4 |
+| OLED SCL | A5 |
 
-## Proteus Simulation
-This download contains Gameboy.pdsprj that is Proteus 8.13  
-
-
-Each example demonstrates different features of the library (graphics, input, sound, collision).
+**Power supply:** USB 5 V (or 7–12 V via VIN pin)
 
 ---
 
-## 📜 License
-This game development library and included examples are **free to distribute**  
-as long as the following notice is preserved:
+## Installation
 
+1. Download the latest release ZIP from this repository.  
+2. In the Arduino IDE go to **Sketch → Include Library → Add .ZIP Library…**  
+3. Select the downloaded `NanoBoy.zip`.  
+4. After installation, check under **File → Examples → NanoBoy** to see sample sketches.
+
+---
+
+## Selecting OLED Type
+
+NanoBoy supports both SSD1306 (0.96") and SH1106 (1.3") OLEDs.  
+Open `NanoBoy/src/NanoBoy.h` and at the top:
+
+```cpp
+// #define NANOboy_USE_SSD1306    // for 0.96" OLED
+#define NANOboy_USE_SH1106       // for 1.3" OLED
