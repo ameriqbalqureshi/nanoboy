@@ -6,7 +6,12 @@ It is built around an Arduino Nano with:
 - a 128×64 pixel OLED display (SSD1306 or SH1106),
 - six input buttons (Up, Down, Left, Right, A, B),
 - a user LED,
-- and a piezo buzzer.
+- and a piezo buzzer
+-
+- ![NanoBoy](images/NanoBoy.png)
+
+- 
+ 
 
 With the NanoBoy Library you can draw graphics, display text, read buttons, play sounds and build your own games with minimal wiring.
 
